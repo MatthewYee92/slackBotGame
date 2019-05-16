@@ -1,0 +1,127 @@
+{
+  "type": "weapons",
+  "data": {
+    "types": [
+      {
+        "id": "saberSlashing",
+        "phrases": {
+          "attack": ["swipes", "slashes", "cuts", "slices"],
+          "break": ["slices through", "shatters", "breaks"]
+        }
+      },
+      {
+        "id": "shooting",
+        "phrases": {
+          "attack": ["blaster shot", "energy beam", "shoot", "power shot"],
+          "break": ["snaps", "shatters", "breaks"]
+        }
+      },
+      {
+        "id": "bashing",
+        "phrases": {
+          "attack": ["hits", "bashes", "smashes"],
+          "break": ["snaps", "shatters", "breaks"]
+        }
+      },
+      {
+        "id": "force",
+        "phrases": {
+          "attack": ["forcepush", "forceLightning", "saberthrow"],
+          "break": ["snaps", "shocks", "breaks"]
+        }
+      }
+    ],
+    "weapons": [
+      {
+        "id": "ancient-lightsaber",
+        "name": "Anicient Lightsaber",
+        "type": "saberSlashing",
+        "hands": 1,
+        "damage": "1d4",
+        "rarity": 2,
+        "fragility": 8,
+        "wear": 20
+      },
+      {
+        "id": "short-saber",
+        "name": "Short Lightsaber",
+        "type": "saberSlashing",
+        "hands": 1,
+        "damage": "1d6",
+        "rarity": 5,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "dual-saber",
+        "name": "Dual Lightsaber",
+        "type": "saberSlashing",
+        "hands": 2,
+        "damage": "1d10",
+        "rarity": 10,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "general-blaster",
+        "name": "General Blaster",
+        "type": "shooting",
+        "hands": 1,
+        "damage": "1d4",
+        "rarity": 5,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "Rebel-Blaster",
+        "name": "Rebel Blaster",
+        "type": "shooting",
+        "hands": 1,
+        "damage": "1d10",
+        "rarity": 20,
+        "fragility": 1,
+        "wear": 5
+      },
+      {
+        "id": "empires-blaster",
+        "name": "Empires Blaster",
+        "type": "shooting",
+        "hands": 1,
+        "damage": "1d6",
+        "rarity": 2,
+        "fragility": 1,
+        "wear": 40
+      },
+      {
+        "id": "force-push",
+        "name": "Force push",
+        "type": "force",
+        "hands": 2,
+        "damage": "2d10",
+        "rarity": 10,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "saber-throw",
+        "name": "Saber throw",
+        "type": "force",
+        "hands": 2,
+        "damage": "1d10",
+        "rarity": 2,
+        "fragility": 1,
+        "wear": 20
+      },
+      {
+        "id": "force-lightning",
+        "name": "Force lightning",
+        "type": "bashing",
+        "hands": 2,
+        "damage": "1d4",
+        "rarity": 1,
+        "fragility": 1,
+        "wear": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "type": "classes",
+    "data": {
+      "classes": [
+        {
+          "id": "jedi-guardian",
+          "name": "Jedi Guardian",
+          "description": "Guardians are the wall between the good people of the 
+                          Republic and their enemies. They stand firm in the face of overwhelming odds 
+                          and dare opponents to attack",
+          "importantStat": "damage"
+        },
+        {
+          "id": "infantry",
+          "name": "Ifantry",
+          "description": "We will serve our purpose, we fight with honor!",
+          "importantStat": "speed"
+        },
+        {
+          "id": "rouge",
+          "name": "Rouge",
+          "description": "Mercenarys unite!",
+          "importantStat": "stealth"
+        },
+        {
+          "id": "sith-lord",
+          "name": "Sith Lord",
+          "description": "The dark side of the force is strong in you, I can sense it.",
+          "importantStat": "Dark Side Force"
+        },
+        {
+          "id": "jedi-master",
+          "name": "Jedi Master",
+          "description": "We will be with you, Always",
+          "importantStat": "Light Side Force"
+        }
+      ]
+    }
+  }
+  
